@@ -1,0 +1,50 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+}
+#carousel{
+  margin: 0 auto;
+  max-width: 900px;
+  max-height: 600px;
+}
+.carousel-item img{
+  max-width: 700px;
+  max-height: 550px;
+}
+.carousel-control-prev{
+  left: 5em;
+}
+.carousel-control-next{
+  right: 5em;
+}
+main{
+  text-align: center;
+}
+.logo{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  text-align: center;
+}
+.navbar{
+  height: 40px;
+  background-color: whitesmoke !important;
+}
+.offcanvas{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#offcanvasNavbarLabel{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.enlace{
+  color: black;
+}
